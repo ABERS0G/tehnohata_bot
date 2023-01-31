@@ -1,9 +1,8 @@
 import TelegramApi from 'node-telegram-bot-api'
 import express, {Router} from 'express'
 
-const token = '6125349040:AAFE_oNOovklNuWoaD47Uq4fF4PMWGLbf14';
+const token = '6125349040:AAGHAMF-xj0PhgB4zy7OJz2qYrBj_KMyXCA';
 const bot = new TelegramApi(token, {polling: true});
-
 
 bot.on('chat_member', async msg=> {
 
